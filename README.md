@@ -5,7 +5,7 @@
  
  Adicionei essa linha no site do GitHub.
  
- ----------------------------------------------------------------------------------------------------
+ ------------------------------------------
  
  ### Usando **MARKDOWN**
  
@@ -17,18 +17,20 @@ __*Negrito com itálico*__
 
 fazendo risco com 2x til, assim: ~~risco com 2x til~~
 
-----------------------------------------------------------------------------------------------------
+com 3 x "-" é possível criar uma linha: `---` usei mais hífens para ficar mais fácil de identificar as seções visualmente
+
+------------------------------------------
 
 Título com #:
 
-# Título 1 x #,
-## Título 2 x #,
-### Título 3 x #,
-#### Título 4 x #,
-##### Título 5 x #,
-###### Título 6 x #,
+# Título 1 x "#"
+## Título 2 x "#"
+### Título 3 x "#"
+#### Título 4 x "#"
+##### Título 5 x "#"
+###### Título 6 x "#"
 
-----------------------------------------------------------------------------------------------------
+------------------------------------------
 
 Lista numerada
 1. primeiro
@@ -56,11 +58,11 @@ Lista de tarefas
 - [x] checklist marcado
 - [ ] 4
 
-----------------------------------------------------------------------------------------------------
+------------------------------------------
+
+`![nome da imagem pode ser qualquer coisa](endereço)`
 
 imagens: usar a barra de "attach" para fazer o upload da imagem
-
-!exclamação mais [nome da imagem pode ser qualquer coisa] mais (endereço)
 
 ![your_image](https://user-images.githubusercontent.com/65188122/199155434-db95c17c-f52f-497d-849d-1dbda230ab88.PNG)
 
@@ -68,13 +70,15 @@ ou usar um link (cuidado com copyright)
 
 ![your_image](https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
 
-----------------------------------------------------------------------------------------------------
+------------------------------------------
+
+`[texto](endereço)`
 
 links: não usar exclamação
 
 [nome do link](https://github.com/Gabrija81)
 
-----------------------------------------------------------------------------------------------------
+------------------------------------------
 
 Tabela
 Col1 | Col2 | Col3
@@ -82,7 +86,7 @@ Col1 | Col2 | Col3
 1 | Algo aqui | 123
 B | 0 | XYZ
 
-----------------------------------------------------------------------------------------------------
+------------------------------------------
 
 Marcação:
 
@@ -102,20 +106,14 @@ else:
 
 comentarios (quotes)
 
-> Vai aparecer
-> 
-> como um
-> 
-> comentário
+> Vai aparecer como um comentário
 
-----------------------------------------------------------------------------------------------------
+------------------------------------------
 
 emojis:
-use "dois pontos" (":") e o nome do emoji
+use "dois pontos" (":nome:") e o nome do emoji
 ### vulcan salute 🖖
 ### computer 💻
 ### triangular ruler 📐
 
-----------------------------------------------------------------------------------------------------
-
-
+------------------------------------------
